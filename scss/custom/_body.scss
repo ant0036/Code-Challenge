@@ -1,0 +1,48 @@
+body {
+    font-size: 16px;
+}
+img {
+    width: 100%;
+}
+.container {
+    max-width:1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#testimonials {
+    img {
+        max-width: 5rem;
+        max-height: 5rem;
+        border-radius:2rem;
+        margin-bottom: 2rem;
+    }
+}
+// colors 
+.primary {
+    background-color: $primary;
+}
+.carnation-pink{
+    background-color: $carnation-pink;
+}
+.lemon-chiffon {
+    background-color: $lemon-chiffon;
+}
+.nyanza {
+    background-color: $nyanza;
+}
+.uranian-blue {
+    background-color: $uranian-blue;
+}
+.mauve {
+    background-color: $mauve;
+}
+$carnation-pink: #ff99c8ff;
+$lemon-chiffon: #fcf6bdff;
+$nyanza: #d0f4deff;
+$uranian-blue: #a9def9ff;
+$mauve: #e4c1f9ff;

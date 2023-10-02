@@ -1,0 +1,20 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"../scss/styles.scss",
+		"../scss/custom/_variables.scss",
+		"../scss/custom/_header.scss",
+		"../scss/custom/_body.scss",
+		"../scss/custom/_footer.scss"
+	],
+	"sourcesContent": [
+		"@import'custom/variables';\r\n@import'custom/header';\r\n@import'custom/body';\r\n@import'custom/footer';",
+		"\r\n/* SCSS HEX */\r\n$carnation-pink: #ff99c8ff;\r\n$lemon-chiffon: #fcf6bdff;\r\n$nyanza: #d0f4deff;\r\n$uranian-blue: #a9def9ff;\r\n$mauve: #e4c1f9ff;\r\n\r\n$primary:$carnation-pink;\r\n$secondary:$lemon-chiffon;",
+		"nav ul li{\r\n    display: inline-block;\r\n    padding:0rem 2rem;\r\n    margin-right: 4px;\r\n}\r\n.btn-primary {\r\n    background-color: $uranian-blue;\r\n    color: #000;\r\n    border: none;\r\n}",
+		"body {\r\n    font-size: 16px;\r\n}\r\nimg {\r\n    width: 100%;\r\n}\r\n.container {\r\n    max-width:1200px;\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n}\r\n\r\nh1 {\r\n    text-align: center;\r\n}\r\n\r\n#testimonials {\r\n    img {\r\n        max-width: 5rem;\r\n        max-height: 5rem;\r\n        border-radius:2rem;\r\n        margin-bottom: 2rem;\r\n    }\r\n}\r\n// colors \r\n.primary {\r\n    background-color: $primary;\r\n}\r\n.carnation-pink{\r\n    background-color: $carnation-pink;\r\n}\r\n.lemon-chiffon {\r\n    background-color: $lemon-chiffon;\r\n}\r\n.nyanza {\r\n    background-color: $nyanza;\r\n}\r\n.uranian-blue {\r\n    background-color: $uranian-blue;\r\n}\r\n.mauve {\r\n    background-color: $mauve;\r\n}\r\n$carnation-pink: #ff99c8ff;\r\n$lemon-chiffon: #fcf6bdff;\r\n$nyanza: #d0f4deff;\r\n$uranian-blue: #a9def9ff;\r\n$mauve: #e4c1f9ff;\r\n",
+		"footer {\r\n    background-color: $primary;\r\n    ul {\r\n        list-style: none;\r\n        li {\r\n            \r\n            display: inline-block;\r\n            \r\n        }\r\n    }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "ACCA,cAAc;;ACDd,AAAA,GAAG,CAAC,EAAE,CAAC,EAAE,CAAA;EACL,OAAO,EAAE,YAAY;EACrB,OAAO,EAAC,SAAS;EACjB,YAAY,EAAE,GAAG;CACpB;;;AACD,AAAA,YAAY,CAAC;EACT,gBAAgB,EDDL,SAAS;ECEpB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf;;;ACTD,AAAA,IAAI,CAAC;EACD,SAAS,EAAE,IAAI;CAClB;;;AACD,AAAA,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;CACd;;;AACD,AAAA,UAAU,CAAC;EACP,SAAS,EAAC,MAAM;EAChB,WAAW,EAAE,IAAI;EACjB,YAAY,EAAE,IAAI;CACrB;;;AAED,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,MAAM;CACrB;;;AAED,AACI,aADS,CACT,GAAG,CAAC;EACA,SAAS,EAAE,IAAI;EACf,UAAU,EAAE,IAAI;EAChB,aAAa,EAAC,IAAI;EAClB,aAAa,EAAE,IAAI;CACtB;;;AAGL,AAAA,QAAQ,CAAC;EACL,gBAAgB,EFxBH,SAAS;CEyBzB;;;AACD,AAAA,eAAe,CAAA;EACX,gBAAgB,EF3BH,SAAS;CE4BzB;;;AACD,AAAA,cAAc,CAAC;EACX,gBAAgB,EF7BJ,SAAS;CE8BxB;;;AACD,AAAA,OAAO,CAAC;EACJ,gBAAgB,EF/BX,SAAS;CEgCjB;;;AACD,AAAA,aAAa,CAAC;EACV,gBAAgB,EFjCL,SAAS;CEkCvB;;;AACD,AAAA,MAAM,CAAC;EACH,gBAAgB,EFnCZ,SAAS;CEoChB;;;AC1CD,AAAA,MAAM,CAAC;EACH,gBAAgB,EHCH,SAAS;CGQzB;;;AAVD,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAMnB;;;AATL,AAIQ,MAJF,CAEF,EAAE,CAEE,EAAE,CAAC;EAEC,OAAO,EAAE,YAAY;CAExB"
+}

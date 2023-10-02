@@ -1,0 +1,91 @@
+/* SCSS HEX */
+/* line 1, ../../../Documents/coding/codechallenge/scss/custom/_header.scss */
+nav ul li {
+  display: inline-block;
+  padding: 0rem 2rem;
+  margin-right: 4px;
+}
+
+/* line 6, ../../../Documents/coding/codechallenge/scss/custom/_header.scss */
+.btn-primary {
+  background-color: #a9def9ff;
+  color: #000;
+  border: none;
+}
+
+/* line 1, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+body {
+  font-size: 16px;
+}
+
+/* line 4, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+img {
+  width: 100%;
+}
+
+/* line 7, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 13, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+h1 {
+  text-align: center;
+}
+
+/* line 18, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+#testimonials img {
+  max-width: 5rem;
+  max-height: 5rem;
+  border-radius: 2rem;
+  margin-bottom: 2rem;
+}
+
+/* line 26, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.primary {
+  background-color: #ff99c8ff;
+}
+
+/* line 29, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.carnation-pink {
+  background-color: #ff99c8ff;
+}
+
+/* line 32, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.lemon-chiffon {
+  background-color: #fcf6bdff;
+}
+
+/* line 35, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.nyanza {
+  background-color: #d0f4deff;
+}
+
+/* line 38, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.uranian-blue {
+  background-color: #a9def9ff;
+}
+
+/* line 41, ../../../Documents/coding/codechallenge/scss/custom/_body.scss */
+.mauve {
+  background-color: #e4c1f9ff;
+}
+
+/* line 1, ../../../Documents/coding/codechallenge/scss/custom/_footer.scss */
+footer {
+  background-color: #ff99c8ff;
+}
+
+/* line 3, ../../../Documents/coding/codechallenge/scss/custom/_footer.scss */
+footer ul {
+  list-style: none;
+}
+
+/* line 5, ../../../Documents/coding/codechallenge/scss/custom/_footer.scss */
+footer ul li {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=styles.css.map */
